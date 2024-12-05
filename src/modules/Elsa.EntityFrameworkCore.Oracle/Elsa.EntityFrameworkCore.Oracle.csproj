@@ -5,6 +5,7 @@
             Provides Oracle EF Core migrations for various modules.
         </Description>
         <PackageTags>elsa module persistence efcore oracle</PackageTags>
+		<TargetFrameworks>net6.0;net8.0</TargetFrameworks>
     </PropertyGroup>
 
     <ItemGroup>

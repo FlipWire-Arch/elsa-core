@@ -5,6 +5,10 @@
         <PackageTags>elsa module agents semantic kernel llm ai persistence efcore entity framework core mysql</PackageTags>
     </PropertyGroup>
 
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+	</PropertyGroup>
+
     <ItemGroup>
         <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="all" />

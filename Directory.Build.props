@@ -38,6 +38,14 @@
     </PropertyGroup>
     <PropertyGroup>
         <ElsaStudioVersion>3.3.0-preview.658</ElsaStudioVersion>
-        <SystemTextJsonVersion>8.0.5</SystemTextJsonVersion>
     </PropertyGroup>
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net6.0'">
+		<SystemTextJsonVersion>8.0.5</SystemTextJsonVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net8.0'">
+		<SystemTextJsonVersion>8.0.5</SystemTextJsonVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net9.0'">
+		<SystemTextJsonVersion>9.0.0</SystemTextJsonVersion>
+	</PropertyGroup>
 </Project>

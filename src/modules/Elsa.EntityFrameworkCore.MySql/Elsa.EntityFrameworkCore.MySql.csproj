@@ -5,11 +5,12 @@
             Provides MySQL EF Core migrations for various modules.
         </Description>
         <PackageTags>elsa module persistence efcore mysql</PackageTags>
+		<TargetFrameworks>net6.0;net8.0</TargetFrameworks>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="all" />
         <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="all" />
     </ItemGroup>
 
     <ItemGroup>
